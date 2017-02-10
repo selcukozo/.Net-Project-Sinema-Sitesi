@@ -1,0 +1,419 @@
+﻿.uyeBolum
+{
+    font-size:11px;
+    margin-top:10px;
+    float:right;
+    font-weight:700;
+}
+.uyeBolum a
+{
+    color:white;
+}
+.uye_ol
+{
+    background-image:url("../images/UyeOl.png");
+    background-repeat:no-repeat;
+    background-position:left center;
+    padding-left:20px;
+    display:inline;
+}
+.uye_giris
+{
+    background-image:url("../images/uyeGiris.png");
+    background-repeat:no-repeat;
+    background-position:left center;
+    padding-left:20px;
+    margin-left:24px;
+    display:inline;
+}
+.sliderBolum
+{
+    width:100%;
+    height:100px;
+    background-color:white;
+    margin-top:-20px;
+    /*clear:both;*/
+}
+.carousel_izlenme
+{
+    font-size:11px;
+    color:white;
+    background-color:#242424;
+    /*background-color:#CDAD00;*/
+    opacity:0.8;
+    text-align:center;
+    width:108px;
+    height:15px;
+    padding-top:3px;
+    position:absolute;
+    margin-top:-24px;
+    margin-left:3px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.carousel_izlenme:hover
+{
+    background-color:#CDAD00;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.anaWrapper
+{
+    width:960px;
+}
+.gridBolum
+{
+    border: 1px solid #333;
+    float:left;
+    margin-top:115px;
+    width:718px;
+    background-color:rgb(19,19,19);
+}
+.grid_cizgi_bir
+{
+    height:1px;
+    width:100%;
+    background-color:black;
+}
+.grid_cizgi_iki
+{
+    height:1px;
+    width:100%;
+    background-color:#333;
+}
+.alt_menu_elyapimi
+{
+    font-family:oswald,arial,serif;
+    margin-top:8px;
+    margin-bottom:8px;
+    list-style:none;
+    background-image:url("siyah_bg");
+    background-repeat:repeat-x;
+    background-size:100% 100%;
+}
+.alt_menu_elyapimi div
+{
+    background-image:url("../images/golge_efekti.png");
+    background-repeat:no-repeat;
+    position:absolute;
+    margin-left:12px;
+    margin-top:-8px;
+    padding-top:0px;
+    margin-right:-15px;
+    display:inline-block;
+    height:37px;
+    width:20px;
+    
+}
+.alt_menu_elyapimi a
+{
+    color:#ccc;
+}
+.alt_menu_elyapimi a:hover
+{
+    color:white;
+}
+.alt_menu_elyapimi li
+{
+    font-size:10px;
+    line-height:24px;
+    padding-left:34px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgb(18,18,18);
+    display:inline;
+    background-image:url("../images/listeTus1.png");
+    background-repeat:no-repeat;
+    background-position-y: 4px;
+    background-position-x:4px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.alt_menu_elyapimi li:hover
+{
+    font-size:10px;
+    line-height:24px;
+    padding-left:34px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgb(18,18,18);
+    display:inline;
+    background-image:url("../images/listeTus2.png");
+    background-repeat:no-repeat;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.datalist_template
+{
+    background-color:rgb(18,18,18);
+    border:1px solid #333;
+    border-radius:5px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    border-bottom:none;
+    margin-top:3px;
+    margin-left:2px;
+    width:234px;
+    text-align:center;
+    margin-right:1px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.datalist_template:hover
+{
+    background-color:rgb(248,139,0);
+    margin-top:3px;
+    width:234px;
+    text-align:center;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.film_seslendirme
+{
+    position:absolute;
+    margin-left:-1px;
+}
+.imdb_puani
+{
+    font-size:11px;
+    font-weight:bold;
+    color:white;
+    background-color:#CDAD00;
+    opacity:0.8;
+    text-align:center;
+    width:228px;
+    /*padding-top:5px;
+    padding-bottom:5px; Bizim yöntemde alt üst padding verdik.Sitede sabit yükseklik üst padding verilmiş
+    margin-top:308px; */
+    height:15px;
+    padding-top:3px;
+    position:absolute;
+    margin-top:312px;
+    margin-left:3px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+    
+}
+.imdb_puani:hover
+{
+    color:black;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.film_resim
+{
+    height:328px;
+    width:226px;
+    margin-top:4px;
+    margin-left:3px;
+}
+.film_adi
+{
+    text-align:center;
+    width:234px;
+    height:30px;
+    background-image:url("../images/film_adi_bg.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    padding-top:4px;
+}
+.film_adiLabel
+{
+    font-size:11px;
+    color:white;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.film_adiLabel:hover
+{
+    font-size:11px;
+    color:white;
+    text-decoration:underline;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.film_izlenme
+{
+    text-align:center;
+    font-size:x-small;
+    color:#ccc;
+    height:14px;
+    width:236px;
+    background-image:url("../images/izlenme_bg1.png");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    margin-right:-49px;
+    margin-left:2px;
+    padding-top:6px;
+}
+.reklamBolum
+{
+    height:144px;
+    width:181px;
+    background-color:white;
+    float:right;
+    margin-top:115px;
+    margin-right: 43px;
+    text-align:center;
+}
+.reklam_tablo
+{
+    font: tahoma;
+    font-size:12px;
+    color:black;
+    border:none;
+}
+.reklam_tablo tr
+{
+   vertical-align:central;
+   height:20px;
+   width:181px;
+}
+.reklam_tablo th
+{
+   width:62px;
+   height:20px;
+   font-weight: bold;
+}
+.reklam_tablo td
+{
+   padding:1px;
+   text-align:left;
+}
+.reklam_tablo a
+{
+    color:blue;
+    font-weight:bold;
+    text-decoration:underline;
+}
+.emailBolum
+{
+    float:right;
+    margin-top:22px;
+    height:87px;
+    width:222px;
+    background-color:#1D2729;
+    border:1px solid #333;
+    
+}
+.emailBolum h2
+{
+    color:white;
+    font-size:16px;
+    font-weight:400;
+    padding-left:9px;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-right:0px;
+    background-image:url("../images/yanmenu.png");
+    background-repeat:repeat-x;
+    background-size:100% 100%;
+    text-align:left;
+}
+.email_bolum_text
+{
+    margin-left:8px;
+    margin-top:10px;
+    width:140px;
+    height:24px;
+    color:black;
+    font-size:11px;
+    font-family:Arial,sans-serif;
+    font-weight:400;
+    border: 1px solid white;
+    border-radius:2px;
+    padding-left:3px;
+    padding-right:0px;
+    padding-top:3px;
+    padding-bottom:5px;
+}
+.emailBolum img
+{
+    float:right;
+    margin-right:16px;
+    margin-top:10px;
+}
+.yanMenuBolum
+{
+    float:right; 
+    margin-top:14px;
+    width:222px;
+    background-color:#1D2729;
+    border:1px solid #333;
+}
+.yanMenuBolum h2
+{
+    color:white;
+    font-size:16px;
+    font-weight:400;
+    padding-left:9px;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-right:0px;
+    background-image:url("../images/yanmenu.png");
+    background-repeat:repeat-x;
+    background-size:100% 100%;
+    text-align:left;
+}
+.yanMenuBolum ul
+{
+    list-style-type:none;
+}
+.yanMenuBolum li
+{
+    border-top:1px solid #494848;
+    background-image:url("../images/yanmenuOk01.gif");
+    background-repeat:no-repeat;
+    background-position:left center;
+    color:#bdbd8c;
+    padding:5px 5px 5px 19px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.yanMenuBolum li:hover
+{
+    background-color:#404040;
+    background-image:url("../images/yanmenuOk02.gif");
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.yanMenuBolum a
+{
+   color:#bdbd8c !important;
+}
+.yanMenuBolum a:hover
+{
+    
+}

@@ -1,0 +1,375 @@
+﻿*
+{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    display:block;
+    background-color:yellow;
+}
+.wrapper
+{
+    /*width:1300px;*/
+    display:block;
+}
+.grid_bolumu
+{
+    border:1px solid gray;
+    height:300px;
+    /*width:600px;*/
+    /*float:left;*/
+    overflow:scroll;
+}
+.gridBolum
+{
+    border: 1px solid #333;
+    float:left;
+    /*margin-top:115px;*/
+    width:718px;
+    background-color:rgb(19,19,19);
+}
+.Gridview
+{
+    font-family:Tahoma;
+    font-size:12px;
+}
+.bilgiler_bolumu
+{
+    color:white;
+    border: 1px solid #333;
+    background-color:#191919;
+    /*width:600px;*/
+    display:block;
+    /*float:left;*/
+    height:300px;
+}
+.bilgiler_bolumu h2
+{
+    background-image:url("../images/siyah_bg.jpg");
+    background-repeat:repeat-y;
+    border-bottom:1px solid #131313;
+    background-size:100% 100%;
+    color:white;
+    font-size:14px;
+    padding-left:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family:oswald,arial,helvatica,sans-serif;
+}
+
+.bilgiler_cizgi_bir
+{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+.bilgiler_cizgi_iki
+{
+    height: 1px;
+    width: 100%;
+    background-color: #333;
+}
+bilgiler_bolumu table
+{
+    margin-top:10px;
+}
+.bilgiler_bolumu p
+{
+    border:1px solid #333;
+    padding-left:5px;
+    padding-right:10px;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin-right:20px;
+    color:#939393;
+    font-size:11px;
+    font-family:oswald,arial,helvatica,sans-serif;
+    margin-top:3px;
+    background:linear-gradient(#191919,#252525);
+    display:inline-block;
+}
+.bilgiler_bolumu_textbox
+{
+    border: 1px solid #333;
+    background-color:black;
+    color:#ccc;
+    padding:3px;
+    font-size:11px;
+    width:200px;
+    font-family:oswald,arial,helvatica,sans-serif;
+    margin-top:3px;
+}
+.bilgiler_bolumu_button
+{
+    font-size:12px;
+    font-family:arial;
+    text-align:center;
+    background:linear-gradient(#B7DF00,#4cff00);
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border:1px solid #AEC640;
+    border-radius:4px;
+    border:none;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:24px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.bilgiler_bolumu_button:hover
+{
+    cursor:pointer;
+    color:white;
+    background: linear-gradient(#ffd800,#ff6a00);
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+
+#FileUpload1
+{
+}
+.yonetim_tablo
+{
+    float:left;
+}
+.yonetim_butonlar
+{
+    float:left;
+    width:100%;
+}
+.uplad_bolum
+{
+   margin-top:8px;
+    float:right;
+}
+.uplad_bolum_baslik h3
+{
+    border-bottom:1px solid #131313;
+    color:white;
+    font-size:12px;
+    /*padding-left:3px;*/
+    padding-top:10px;
+    padding-bottom:5px;
+    margin-bottom:10px;
+    font-family:oswald,arial,helvatica,sans-serif;
+}
+/*Yeni tasarım*/
+.anaWrapper
+{
+    width:960px;
+}
+.gridBolum
+{
+    border: 1px solid #333;
+    float:left;
+    margin-top:115px;
+    width:718px;
+    background-color:rgb(19,19,19);
+}
+.grid_cizgi_bir
+{
+    height:1px;
+    width:100%;
+    background-color:black;
+}
+.grid_cizgi_iki
+{
+    height:1px;
+    width:100%;
+    background-color:#333;
+}
+.alt_menu_elyapimi
+{
+    font-family:oswald,arial,serif;
+    margin-top:8px;
+    margin-bottom:8px;
+    list-style:none;
+    background-image:url("siyah_bg");
+    background-repeat:repeat-x;
+    background-size:100% 100%;
+}
+.alt_menu_elyapimi div
+{
+    background-image:url("../images/golge_efekti.png");
+    background-repeat:no-repeat;
+    position:absolute;
+    margin-left:12px;
+    margin-top:-8px;
+    padding-top:0px;
+    margin-right:-15px;
+    display:inline-block;
+    height:37px;
+    width:20px;
+    
+}
+.alt_menu_elyapimi a
+{
+    color:#ccc;
+}
+.alt_menu_elyapimi a:hover
+{
+    color:white;
+}
+.alt_menu_elyapimi li
+{
+    font-size:10px;
+    line-height:24px;
+    padding-left:34px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgb(18,18,18);
+    display:inline;
+    background-image:url("../images/listeTus1.png");
+    background-repeat:no-repeat;
+    background-position-y: 4px;
+    background-position-x:4px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.alt_menu_elyapimi li:hover
+{
+    font-size:10px;
+    line-height:24px;
+    padding-left:34px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgb(18,18,18);
+    display:inline;
+    background-image:url("../images/listeTus2.png");
+    background-repeat:no-repeat;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.datalist_template
+{
+    background-color:rgb(18,18,18);
+    border:1px solid #333;
+    border-radius:5px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    border-bottom:none;
+    margin-top:3px;
+    margin-left:2px;
+    width:234px;
+    text-align:center;
+    margin-right:1px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.datalist_template:hover
+{
+    background-color:rgb(248,139,0);
+    margin-top:3px;
+    width:234px;
+    text-align:center;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.film_seslendirme
+{
+    position:absolute;
+    margin-left:-1px;
+}
+.imdb_puani
+{
+    font-size:11px;
+    font-weight:bold;
+    color:white;
+    background-color:#CDAD00;
+    opacity:0.8;
+    text-align:center;
+    width:228px;
+    /*padding-top:5px;
+    padding-bottom:5px; Bizim yöntemde alt üst padding verdik.Sitede sabit yükseklik üst padding verilmiş
+    margin-top:308px; */
+    height:15px;
+    padding-top:3px;
+    position:absolute;
+    margin-top:312px;
+    margin-left:3px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+    
+}
+.imdb_puani:hover
+{
+    color:black;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.film_resim
+{
+    height:328px;
+    width:226px;
+    margin-top:4px;
+    margin-left:3px;
+}
+.film_adi
+{
+    text-align:center;
+    width:234px;
+    height:30px;
+    background-image:url("../images/film_adi_bg.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    padding-top:4px;
+}
+.film_adiLabel
+{
+    font-size:11px;
+    color:white;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.film_adiLabel:hover
+{
+    font-size:11px;
+    color:white;
+    text-decoration:underline;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.film_izlenme
+{
+    text-align:center;
+    font-size:x-small;
+    color:#ccc;
+    height:14px;
+    width:236px;
+    background-image:url("../images/izlenme_bg1.png");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    margin-right:-49px;
+    margin-left:2px;
+    padding-top:6px;
+}

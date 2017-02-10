@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{029245A3-EEE3-498B-B311-04C7B3048AFE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SinemaSitesi</RootNamespace>
+    <AssemblyName>SinemaSitesi</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\admin_control_panel.css" />
+    <Content Include="css\Profile.css" />
+    <Content Include="css\Movies.css" />
+    <Content Include="css\Admin.css" />
+    <Content Include="css\Users.css" />
+    <Content Include="css\Default.css" />
+    <Content Include="css\jquery.popup.css" />
+    <Content Include="css\uc_user_create_popup.css" />
+    <Content Include="css\user_create.css" />
+    <Content Include="film_images\950Hababam_Sinifi_1975.jpg" />
+    <Content Include="film_images\attack_on_titan01.jpg" />
+    <Content Include="film_images\a_good_man01.jpg" />
+    <Content Include="film_images\btooom01.jpg" />
+    <Content Include="film_images\camp_x-ray01.jpg" />
+    <Content Include="film_images\coherence01.jpg" />
+    <Content Include="film_images\fury01.jpg" />
+    <Content Include="film_images\hobbit01.jpg" />
+    <Content Include="film_images\omar01.jpg" />
+    <Content Include="film_images\Sholin_Soccer01.jpg" />
+    <Content Include="images\A1.png" />
+    <Content Include="images\arama_bg01.png" />
+    <Content Include="images\begeni01.png" />
+    <Content Include="images\begeni02.png" />
+    <Content Include="images\denemeLogo.png" />
+    <Content Include="images\email_Tus1.png" />
+    <Content Include="images\facebook_paylas.png" />
+    <Content Include="images\film_adi_bg.png" />
+    <Content Include="images\film_altlik.png" />
+    <Content Include="images\golge_efekti.png" />
+    <Content Include="images\google.png" />
+    <Content Include="images\izlenme_bg.png" />
+    <Content Include="images\izlenme_bg01.png" />
+    <Content Include="images\izlenme_bg1.png" />
+    <Content Include="images\listeTus1.png" />
+    <Content Include="images\listeTus2.png" />
+    <Content Include="images\liste_bg.png" />
+    <Content Include="images\ok01.png" />
+    <Content Include="images\ok02.png" />
+    <Content Include="images\siyah_bg.jpg" />
+    <Content Include="images\tr_altyazi.png" />
+    <Content Include="images\tr_dublaj.png" />
+    <Content Include="images\tv.png" />
+    <Content Include="images\uyeCikis.png" />
+    <Content Include="images\uyeGiris.png" />
+    <Content Include="images\uyeOl.png" />
+    <Content Include="images\yanmenu.png" />
+    <Content Include="images\yanmenuOk02.gif" />
+    <Content Include="images\yanmenuOk01.gif" />
+    <Content Include="js\jquery-2.1.3.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.popup.js" />
+    <Content Include="js\stepcarousel.js" />
+    <Content Include="reklam_images\betboo.png" />
+    <Content Include="reklam_images\oddsring.png" />
+    <Content Include="reklam_images\superbahis.png" />
+    <Content Include="reklam_images\tempobet.png" />
+    <Content Include="reklam_images\youwin.png" />
+    <Content Include="Site1.Master" />
+    <Content Include="uc_film_yorum.ascx" />
+    <Content Include="uc_film_yorum_kul.ascx" />
+    <Content Include="Users.aspx" />
+    <Content Include="Movies.aspx" />
+    <Content Include="Profile.aspx" />
+    <Content Include="Admin.aspx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\StyleSheet1.css" />
+    <Content Include="Global.asax" />
+    <Content Include="images\arkaplan01.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\Menu_bg.png" />
+    <Content Include="images\sprite.png" />
+    <Content Include="uc_carousel.ascx" />
+    <Content Include="uc_user_create_popup.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsSabitler.cs" />
+    <Compile Include="clsSifreleme.cs" />
+    <Compile Include="cls\Kullanici.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="uc_carousel.ascx.cs">
+      <DependentUpon>uc_carousel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uc_carousel.ascx.designer.cs">
+      <DependentUpon>uc_carousel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uc_film_yorum.ascx.cs">
+      <DependentUpon>uc_film_yorum.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uc_film_yorum.ascx.designer.cs">
+      <DependentUpon>uc_film_yorum.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="uc_film_yorum_kul.ascx.cs">
+      <DependentUpon>uc_film_yorum_kul.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uc_film_yorum_kul.ascx.designer.cs">
+      <DependentUpon>uc_film_yorum_kul.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="uc_user_create_popup.ascx.cs">
+      <DependentUpon>uc_user_create_popup.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uc_user_create_popup.ascx.designer.cs">
+      <DependentUpon>uc_user_create_popup.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Movies.aspx.cs">
+      <DependentUpon>Movies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Movies.aspx.designer.cs">
+      <DependentUpon>Movies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DatabaseBaglanti\DatabaseBaglanti.csproj">
+      <Project>{14cec96b-a168-4bf9-938d-30433767f2a0}</Project>
+      <Name>DatabaseBaglanti</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>8122</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:8122/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

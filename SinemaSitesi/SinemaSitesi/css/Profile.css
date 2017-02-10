@@ -1,0 +1,906 @@
+﻿
+.uyeBolum
+{
+    font-size:11px;
+    margin-top:10px;
+    float:right;
+    font-weight:700;
+    padding-right:25px;
+}
+.uyeBolum a
+{
+    color:white;
+}
+.users_profile
+{
+    background-image:url("../images/UyeOl.png");
+    background-repeat:no-repeat;
+    background-position:left center;
+    padding-left:20px;
+    display:inline;
+}
+.users_singout
+{
+    background-image:url("../images/uyeCikis.png");
+    background-repeat:no-repeat;
+    background-position:left center;
+    padding-left:20px;
+    margin-left:18px;
+    display:inline;
+}
+@-webkit-keyframes renkdegis
+{
+    0%{color:yellow;}
+    20%{color:#00ff90;}
+    40%{color:rgb(248,139,0);}
+    60%{color:red;}
+    80%{color:#ff6a00;}
+    100%{color:black;}
+}
+@-moz-keyframes renkdegis
+{
+    0%{color:yellow;}
+    20%{color:#00ff90;}
+    40%{color:rgb(248,139,0);}
+    60%{color:red;}
+    80%{color:#ff6a00;}
+    100%{color:black;}
+}
+@-o-keyframes renkdegis
+{
+    0%{color:yellow;}
+    20%{color:#00ff90;}
+    40%{color:rgb(248,139,0);}
+    60%{color:red;}
+    80%{color:#ff6a00;}
+    100%{color:black;}
+}
+.users_label
+{
+    font-size:14px;
+    /*margin-left:20px;*/
+    display:inline-block;
+    margin-top:10px;
+    -webkit-animation-name: renkdegis;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-duration:4s;
+    -moz-animation-name: renkdegis;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-duration:4s;
+    -o-animation-name: renkdegis;
+    -o-animation-iteration-count:infinite;
+    -o-animation-duration:4s;
+}
+.profil_content
+{
+    width:718px;
+    float:left;
+    height:auto;
+    background-color:#191919;
+    border:1px solid #333;
+}
+.profil_content h2
+{
+    background-image:url("../images/siyah_bg.jpg");
+    background-repeat:repeat-y;
+    background-size:100% 100%;
+    color:white;
+    font-size:14px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family:oswald,arial,helvatica,sans-serif;
+}
+/*.profil_cizgi
+{
+    height:1px;
+    width:100%;
+    background-color:black;
+}*/
+.profil_detay
+{
+    height:300px; 
+    width:177px;
+    float:left;
+    padding-left:8px;
+    padding-right:8px;
+    padding-top:5px;
+    padding-bottom:5px;
+    /*border-top:1px solid black;*/
+    border-right:1px solid #333;
+}
+.profil_resim
+{
+    height:130px;
+    width:130px;
+    background-color:#333;
+    border:2px solid #0f0f0f;
+    border-radius:5px;
+    padding:1px;
+}
+.profile_button
+{
+    font-weight:bolder;
+    line-height:18px;
+    font-family:Tahoma;
+    font-size:12px;
+    color:#C1CD06;
+    background-color:#181818;
+    border:1px solid #282828;
+    border-radius:4px;
+    /*float:left;*/
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    width:134px;
+    /*margin-top:8px;*/
+    text-align:left;
+}
+.profile_button_cizgi
+{
+    border:1px solid black;
+    border-radius:4px;
+    float:left;
+    margin-top:5px;
+    /*display:inline-block;*/
+}
+.profile_button:hover
+{
+    cursor:pointer;
+    background-color:#4cff00;
+    color:#191919;
+    border:none;
+    padding-top:6px;
+    padding-bottom:6px;
+
+}
+.profil_hakkımda
+{
+    height:300px;
+    width:250px;
+    float:left;
+    padding-left:8px;
+    padding-right:8px;
+    padding-top:5px;
+    padding-bottom:5px;
+    /*border-top:1px solid black;*/
+    border-left:1px solid black;
+    border-right:1px solid #333;
+}
+.profil_hakkımda h3
+{
+    color:white;
+    font-size:16px;
+    font-weight:700;
+    line-height:18px;
+    padding-left:2px;
+    padding-top:2px;
+    padding-bottom:10px;
+    font-family:oswald,arial,helvatica,sans-serif;
+}
+.profil_hakkımda_label1
+{
+    margin-left:2px;
+    font-family:Tahoma;
+    font-size:13px;
+    color:#fff;
+    font-weight:700;
+    line-height:18px;
+}
+.profil_hakkımda_label2
+{
+    color:#666;
+    font-size:12px;
+    font-weight:700;
+    line-height:18px;
+    font-family:Tahoma;
+    margin-left:2px;
+}
+.profil_bos
+{
+    height:300px; 
+    width:239px;
+    float:left;
+    padding-left:8px;
+    padding-right:8px;
+    padding-top:5px;
+    padding-bottom:5px;
+    /*border-top:1px solid black;*/
+    border-left:1px solid black;
+}
+.profil_yorumlar_bolumu
+{
+    float:left;
+    width:300px;
+    height:100px;
+    padding-top:5px;
+    padding-left:3px;
+    /*padding-bottom:2px;*/
+    font-size:12px;
+    font-weight:700;
+    margin-bottom:-8px;
+}
+.profil_yorumlar_bolumu h3
+{
+    color:white;
+    font-size:16px;
+    font-weight:700;
+    line-height:18px;
+    padding-left:2px;
+    padding-top:2px;
+    padding-bottom:10px;
+    font-family:oswald,arial,helvatica,sans-serif;
+}
+.profil_yorumlar_content
+{
+    background-color:#121212;
+    border:1px solid #101010;
+    border-radius:5px;
+    font-family:Tahoma;
+    line-height:18px;
+}
+.profil_yorumlar_baslik
+{
+    color:#777;
+    background-color:#303030;
+    border-radius:5px;
+    padding-left:3px;
+    padding-right:3px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.profil_yorumlar_icerik
+{
+    color:#777;
+    background-color:#121212;
+    /*border-radius:5px;*/
+    padding-left:3px;
+    padding-right:3px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.sliderBolum
+{
+    width:100%;
+    height:100px;
+    background-color:white;
+    margin-top:-20px;
+    /*clear:both;*/
+}
+.carousel_izlenme
+{
+    font-size:11px;
+    color:white;
+    background-color:#242424;
+    /*background-color:#CDAD00;*/
+    opacity:0.8;
+    text-align:center;
+    width:108px;
+    height:15px;
+    padding-top:3px;
+    position:absolute;
+    margin-top:-24px;
+    margin-left:3px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.carousel_izlenme:hover
+{
+    background-color:#CDAD00;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.anaWrapper
+{
+    width:960px;
+    margin-top:-23px;
+}
+.gridBolum
+{
+    border: 1px solid #333;
+    float:left;
+    margin-top:115px;
+    width:718px;
+    background-color:rgb(19,19,19);
+}
+.grid_cizgi_bir
+{
+    height:1px;
+    width:100%;
+    background-color:black;
+}
+.grid_cizgi_iki
+{
+    height:1px;
+    width:100%;
+    background-color:#333;
+}
+.alt_menu_elyapimi
+{
+    font-family:oswald,arial,serif;
+    margin-top:8px;
+    margin-bottom:8px;
+    list-style:none;
+    background-image:url("siyah_bg");
+    background-repeat:repeat-x;
+    background-size:100% 100%;
+}
+.alt_menu_elyapimi div
+{
+    background-image:url("../images/golge_efekti.png");
+    background-repeat:no-repeat;
+    position:absolute;
+    margin-left:12px;
+    margin-top:-8px;
+    padding-top:0px;
+    margin-right:-15px;
+    display:inline-block;
+    height:37px;
+    width:20px;
+    
+}
+.alt_menu_elyapimi a
+{
+    color:#ccc;
+}
+.alt_menu_elyapimi a:hover
+{
+    color:white;
+}
+.alt_menu_elyapimi li
+{
+    font-size:10px;
+    line-height:24px;
+    padding-left:34px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgb(18,18,18);
+    display:inline;
+    background-image:url("../images/listeTus1.png");
+    background-repeat:no-repeat;
+    background-position-y: 4px;
+    background-position-x:4px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.alt_menu_elyapimi li:hover
+{
+    font-size:10px;
+    line-height:24px;
+    padding-left:34px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgb(18,18,18);
+    display:inline;
+    background-image:url("../images/listeTus2.png");
+    background-repeat:no-repeat;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.datalist_template
+{
+    background-color:rgb(18,18,18);
+    border:1px solid #333;
+    border-radius:5px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    border-bottom:none;
+    margin-top:3px;
+    margin-left:2px;
+    width:234px;
+    text-align:center;
+    margin-right:1px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.datalist_template:hover
+{
+    background-color:rgb(248,139,0);
+    margin-top:3px;
+    width:234px;
+    text-align:center;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.film_seslendirme
+{
+    position:absolute;
+    margin-left:-1px;
+}
+.imdb_puani
+{
+    font-size:11px;
+    font-weight:bold;
+    color:white;
+    background-color:#CDAD00;
+    opacity:0.8;
+    text-align:center;
+    width:228px;
+    /*padding-top:5px;
+    padding-bottom:5px; Bizim yöntemde alt üst padding verdik.Sitede sabit yükseklik üst padding verilmiş
+    margin-top:308px; */
+    height:15px;
+    padding-top:3px;
+    position:absolute;
+    margin-top:312px;
+    margin-left:3px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+    
+}
+.imdb_puani:hover
+{
+    color:black;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.film_resim
+{
+    height:328px;
+    width:226px;
+    margin-top:4px;
+    margin-left:3px;
+}
+.film_adi
+{
+    text-align:center;
+    width:234px;
+    height:30px;
+    background-image:url("../images/film_adi_bg.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    padding-top:4px;
+}
+.film_adiLabel
+{
+    font-size:11px;
+    color:white;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.film_adiLabel:hover
+{
+    font-size:11px;
+    color:white;
+    text-decoration:underline;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.film_izlenme
+{
+    text-align:center;
+    font-size:x-small;
+    color:#ccc;
+    height:14px;
+    width:236px;
+    background-image:url("../images/izlenme_bg1.png");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    margin-right:-49px;
+    margin-left:2px;
+    padding-top:6px;
+}
+.reklamBolum
+{
+    height:144px;
+    width:181px;
+    background-color:white;
+    float:right;
+    margin-right: 43px;
+    text-align:center;
+}
+.reklam_tablo
+{
+    font: tahoma;
+    font-size:12px;
+    color:black;
+    border:none;
+}
+.reklam_tablo tr
+{
+   vertical-align:central;
+   height:20px;
+   width:181px;
+}
+.reklam_tablo th
+{
+   width:62px;
+   height:20px;
+   font-weight: bold;
+}
+.reklam_tablo td
+{
+   padding:1px;
+   text-align:left;
+}
+.reklam_tablo a
+{
+    color:blue;
+    font-weight:bold;
+    text-decoration:underline;
+}
+.emailBolum
+{
+    float:right;
+    margin-top:22px;
+    height:87px;
+    width:222px;
+    background-color:#1D2729;
+    border:1px solid #333;
+    
+}
+.emailBolum h2
+{
+    color:white;
+    font-size:16px;
+    font-weight:400;
+    padding-left:9px;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-right:0px;
+    background-image:url("../images/yanmenu.png");
+    background-repeat:repeat-x;
+    background-size:100% 100%;
+    text-align:left;
+}
+.email_bolum_text
+{
+    margin-left:8px;
+    margin-top:10px;
+    width:140px;
+    height:24px;
+    color:black;
+    font-size:11px;
+    font-family:Arial,sans-serif;
+    font-weight:400;
+    border: 1px solid white;
+    border-radius:2px;
+    padding-left:3px;
+    padding-right:0px;
+    padding-top:3px;
+    padding-bottom:5px;
+}
+.emailBolum img
+{
+    float:right;
+    margin-right:16px;
+    margin-top:10px;
+}
+.yanMenuBolum
+{
+    float:right; 
+    margin-top:14px;
+    width:222px;
+    background-color:#1D2729;
+    border:1px solid #333;
+}
+.yanMenuBolum h2
+{
+    color:white;
+    font-size:16px;
+    font-weight:400;
+    padding-left:9px;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-right:0px;
+    background-image:url("../images/yanmenu.png");
+    background-repeat:repeat-x;
+    background-size:100% 100%;
+    text-align:left;
+}
+.yanMenuBolum ul
+{
+    list-style-type:none;
+}
+.yanMenuBolum li
+{
+    border-top:1px solid #494848;
+    background-image:url("../images/yanmenuOk01.gif");
+    background-repeat:no-repeat;
+    background-position:left center;
+    color:#bdbd8c;
+    padding:5px 5px 5px 19px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.yanMenuBolum li:hover
+{
+    background-color:#404040;
+    background-image:url("../images/yanmenuOk02.gif");
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.yanMenuBolum a
+{
+   color:#bdbd8c !important;
+}
+.yanMenuBolum a:hover
+{
+    
+}
+.YorumBolum
+{
+    float:left;
+    width:718px;
+    /*height:600px;*/
+    background-color:#191919;
+    border:1px solid #333;
+    margin-bottom:10px;
+    margin-top:10px;
+    padding-bottom:15px;
+}
+.YorumBolum_baslik
+{
+    background-image:url("../images/siyah_bg.jpg");
+    height:21px;
+    border-bottom:1px solid #131313;
+    padding-left:8px;
+    padding-top:9px;
+    padding-bottom:8px;
+}
+.YorumBolum_baslik h2
+{
+    float:left;
+    color:#fff;
+    font-family:Oswald,arial,serif;
+    font-size:14px;
+    font-weight:400;
+}
+.YorumBolum_baslik p
+{
+     float:right;
+     padding-right:10px;
+     color:#545454;
+     font-size:10px;
+     padding-top:1px;
+}
+.YorumBolum_yaz
+{
+    float:left;
+    background-color:#0C0C0C;
+    width:426px; /*10 birim küçük*/
+    height:120px;
+    color:#717171;
+    font-size:12px;
+    font-weight:400;
+    border:1px solid #1C1C1C;
+    border-radius:6px;
+    padding:5px;
+    margin-left:10px;
+    margin-top:5px;
+    font-family:Arial;
+}
+.YorumBolum_profil
+{
+    float:left;
+    background-color:#111111;
+    border-radius:5px;
+    height:85px; /*sanırım paddingler yüzünden 10px daha ekleniyor orjinalinde de toplam 95 bizde de*/
+    width:240px;
+    padding:5px;
+    margin-top:5px;
+    margin-left:10px;
+}
+.YorumBolum_profil h2
+{
+    font-size:14px;
+    line-height:18px;
+    font-weight:normal;
+    color:#fff;
+    font-family:Tahoma;
+    display:inline;
+}
+.yorumBolum_profil_baslik_a
+{
+    font-size:14px;
+    line-height:18px;
+    font-weight:normal;
+    color:#C6E633;
+    font-family:Tahoma;
+    display:inline;
+    text-decoration:none;
+}
+.yorumBolum_profil_baslik_a:hover
+{
+    text-decoration:underline;
+}
+.YorumBolum_profil p
+{
+    color:#515151;
+    font-size:smaller;
+    /*font-family:oswald;*/
+    font-family:Tahoma;
+    line-height:18px;
+    font-weight:normal;
+    margin-bottom:25px;
+}
+.yorumBolum_profil_cikis
+{
+    padding-top:20px;
+    color:#585858;
+    text-decoration:none;
+    /*margin-top:80px;*/
+    font-size:12px;
+    font-family:Tahoma;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.yorumBolum_profil_cikis:hover
+{
+    color:#C6E633;
+    text-decoration:underline;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.YorumBolum_profil_avatar
+{
+    height:60px;
+    width:60px;
+    background-color:#333333;
+    border:2px solid #111111;
+    padding:2px;
+    border-radius:5px;
+    float:right;
+}
+.yorumBolum_button
+{
+    width:168px;
+    border-radius:3px;
+    color:#A9A9A9;
+    background-color:#0C0C0C;
+    font-size:11px;
+    float:right;
+    font-family:Arial,Tahoma,Verdana;
+    height:30px;
+    font-weight:700;
+    border:1px solid #1C1C1C;
+    margin-top:6px;
+    margin-right:9px;
+    /*padding-top:1px;
+    padding-bottom:3*/
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.yorumBolum_button:hover
+{
+    cursor:pointer;
+    border-color:#206086;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+    
+}
+.YorumBolum_tum_yorumlar
+{
+    margin-left:10px;
+    font-family:Tahoma;
+    margin-top:10px; /* sonraki Hepsi geçici değerler*/
+    float:left;
+    /*height:100px;*/
+    width:100%;
+    font-size:12px;
+    font-family:Tahoma;
+    padding-bottom:15px;
+}
+.YorumBolum_tum_yorumlar h1
+{
+    font-weight:bold;
+    line-height:18px;
+    color:#fff;
+    font-size:12px;
+    /*margin-bottom:15px;*/
+}
+.YorumBolum_tum_yorumlar h5
+{
+     font-size:12px;
+     line-height:18px;
+     color:#D8D8D8;
+     display:inline;
+     font-weight:700;
+}
+.YorumBolum_tum_yorumlar h3
+{
+    font-size:12px;
+    line-height:18px;
+    color:#D8D8D8;
+    font-style:italic;
+    display:inline;
+    font-weight:700;
+}
+.YorumBolum_tum_yorumlar h4
+{
+    font-size:10px;
+    line-height:18px;
+    color:#818181;
+    font-weight:400;
+}
+.YorumBolum_tum_yorumlar_resim
+{
+    background-color:#484848;
+    border:1px solid #424242;
+    border-radius:4px;
+    float:left;
+    height:30px;
+    margin-right:5px;
+    padding:2px;
+    width:30px;
+}
+.YorumBolum_tum_yorumlar_icerik_yazi
+{
+    margin-top:15px;
+}
+.YorumBolum_tum_yorumlar_icerik_yazi p
+{
+    color:#707070;
+    font-size:12px;
+    font-weight:700;
+}
+.YorumBolum_tum_yorumlar_icerik_tek
+{
+    background-color:#242424;
+    color:#ccc;
+    font-weight:400;
+    border:1px dotted #333;
+    border-radius:6px;
+    padding-left:10px;
+    padding-right:5px;
+    padding-top:10px;
+    padding-bottom:20px;
+    margin-right:20px;
+    margin-top:15px;
+}
+.YorumBolum_tum_yorumlar_icerik_cift
+{
+    background-color:#1C1C1C;
+    color:#ccc;
+    font-weight:400;
+    border:1px dotted #333;
+    border-radius:6px;
+    padding-left:10px;
+    padding-right:5px;
+    padding-top:10px;
+    padding-bottom:20px;
+    margin-right:20px;
+    margin-top:15px;
+}

@@ -1,0 +1,98 @@
+﻿*
+{
+    margin:0px;
+    padding:0px;
+}
+.uyelikBolumPopup
+{
+    /*padding:10px;*/
+    border: 1px solid #333;
+    background-color:#191919;
+}
+.uyelikBolumPopup h2
+{
+    background-image:url("../images/siyah_bg.jpg");
+    background-repeat:repeat-y;
+    /*border-bottom:1px solid #131313;*/
+    background-size:100% 100%;
+    color:white; /*Ana Menüde default rengi nasıl yaptık şuan hatırlamıyoruz */
+    font-size:14px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family:oswald,arial,helvatica,sans-serif;
+}
+.uyelik_popup_cizgi_bir
+{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+.uyelik_popup_cizgi_iki
+{
+    height: 1px;
+    width: 100%;
+    background-color: #333;
+}
+.uyelikBolumPopup table
+{
+    margin-top:10px;
+    margin-left:2px;
+}
+.uyelikBolumPopup p
+{
+    border:1px solid #333;
+    padding-left:5px;
+    padding-right:10px;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin-right:20px;
+    color:#939393;
+    font-size:11px;
+    font-family:oswald,arial,helvatica,sans-serif;
+    margin-top:3px;
+    background:linear-gradient(#191919,#252525);
+}
+.uyelik_popup_textbox
+{
+    border: 1px solid #333;
+    background-color:black;
+    color:#ccc;
+    padding:3px;
+    font-size:11px;
+    width:200px;
+    font-family:oswald,arial,helvatica,sans-serif;
+    margin-top:3px;
+}
+.uyelik_popup_button1
+{
+    font-size:12px;
+    font-family:arial;
+    text-align:center;
+    background:linear-gradient(#B7DF00,#4cff00);
+    /*height:40px;*/
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+    border:1px solid #AEC640;
+    border-radius:4px;
+    border:none;
+    margin-top:10px;
+    margin-bottom:10px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.uyelik_popup_button1:hover
+{
+    cursor:pointer;
+    color:white;
+    background: linear-gradient(#ffd800,#ff6a00);
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}

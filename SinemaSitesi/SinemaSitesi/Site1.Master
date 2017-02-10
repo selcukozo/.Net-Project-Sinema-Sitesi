@@ -1,0 +1,261 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SinemaSitesi.Site1" %>
+
+<%@ Register Src="~/uc_carousel.ascx" TagPrefix="uc1" TagName="uc_carousel" %>
+<%@ Register Src="~/uc_user_create_popup.ascx" TagPrefix="uc2" TagName="uc_user_create_popup" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+      function clearBox() {
+          $("#TextBox1").val('');
+        }
+        function fillBox() {
+            $("#TextBox1").val('Arama');
+        }
+    </script>
+    <!--Bu bölümden sonrası Step Carousel adlı SlideShow için-->
+
+<script src="js/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/stepcarousel.js">
+
+/***********************************************
+* Step Carousel Viewer script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+
+</script>
+
+<style type="text/css">
+
+.stepcarousel{
+position: relative; /*leave this value alone*/
+border: 1px solid #333;
+overflow: scroll; /*leave this value alone*/
+width: 960px; /*Width of Carousel Viewer itself*/
+height: 200px; /*Height should enough to fit largest content's height*/
+-webkit-box-sizing: border-box; /* set box model so container width and height value includes any padding/border defined */
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+background-color:rgb(18,18,18);
+}
+
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+
+.stepcarousel .panel{
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin-left: 30px; /*margin around each panel*/
+margin-right:14px;
+margin-top:3px;
+width: 114px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+height:188px;
+background-color:rgb(18,18,18);
+border:1px solid #333;
+text-align:center;
+padding-top:1px;
+padding-bottom:1px;
+transition:opacity 0.6s;
+-webkit-transition:all ease 0.6s;
+-moz-transition:all ease 0.6s;
+-o-transition:all ease 0.6s;
+}
+.stepcarousel .panel:hover{
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin-left: 30px; /*margin around each panel*/
+margin-right:14px;
+margin-top:3px;
+width: 114px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+height:188px;
+background-color:rgb(248,139,0);
+border:1px solid #333;
+text-align:center;
+padding-top:1px;
+padding-bottom:1px;
+-webkit-transition:all ease 0.6s;
+-moz-transition:all ease 0.6s;
+-o-transition:all ease 0.6s;
+-ms-transition: all ease 0.6s;
+transition:all ease 0.6s;
+}
+
+span.paginatecircle{ /* CSS for paginate circle spans. Required */
+background: white;
+border: 2px solid black;
+border-radius: 10px;
+width: 6px;
+height: 6px;
+cursor: pointer;
+display: inline-block;
+margin-right: 4px;
+}
+
+span.paginatecircle:hover{
+background: gray;
+}
+
+span.paginatecircle.selected{
+background: black;
+}
+
+</style>
+
+
+
+<script type="text/javascript">
+
+    stepcarousel.setup({
+        galleryid: 'mygallery', //id of carousel DIV
+        beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+        panelclass: 'panel', //class of panel DIVs each holding content
+        autostep: { enable: true, moveby: 1, pause: 3000 },
+        panelbehavior: { speed: 500, wraparound: true, wrapbehavior: 'slide', persist: true },
+        defaultbuttons: { enable: true, moveby: 1, leftnav: ['images/ok01.png', 1, 4], rightnav: ['images/ok02.png', -28, 4] },
+        statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
+        contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
+    })
+
+</script>
+<%-- Bu bölümden sonrası UserCreatePopup için --%>
+<script src="js/jquery-2.1.3.js"></script>
+<link href="css/user_create.css" rel="stylesheet" type="text/css" />
+    <script>
+        jQuery(function ($) {
+
+            /************** event to open the popup **************/
+
+            $("a.toPopup1").click(function () {
+                loading(); // loading
+                setTimeout(function () { // then show popup, deley in .5 second
+                    loadPopup1(); // function show popup 
+                }, 500); // .5 second
+                return false;
+            });
+            /************** event to close the popup **************/
+
+            $(this).keyup(function (event) {
+                if (event.which == 27) {
+                    disablePopup(); // function close pop up
+                }
+            });
+
+            $("#backgroundPopup").click(function () {
+                disablePopup(); // function close pop up
+            });
+
+
+            /************** start: functions. **************/
+
+            function loading() { }
+
+            var popupStatus = 0; // set value
+
+            function loadPopup1() {
+                if (popupStatus == 0) { // if value is 0, show popup
+                    $("#toPopup1").fadeIn(0500); // fadein popup div
+                    $("#backgroundPopup").css("opacity", "0.7");
+                    $("#backgroundPopup").fadeIn(0001);
+                    popupStatus = 1; // and set value to 1
+                }
+            }
+
+            function disablePopup() {
+                if (popupStatus == 1) { // if value is 1, close popup
+                    $("#toPopup1").fadeOut("normal");
+                    $("#backgroundPopup").fadeOut("normal");
+                    popupStatus = 0; // and set value to 0
+                }
+            }
+
+            /************** end: functions. **************/
+
+        });
+    </script>
+    <%-- Bu kısımdan sonrası simple popupla yapılan login için --%>
+    <link rel="stylesheet" href="css/jquery.popup.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.popup.js"></script>
+     <script type="text/javascript">
+         $(function () {
+             $(".js__p_start").simplePopup();
+         });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="toPopup1">
+            <uc2:uc_user_create_popup runat="server" id="uc_user_create_popup" />
+        </div>
+        <div id="backgroundPopup"></div>
+
+       <%-- <div class="popup_login">
+            <a href="#" class="js__p_start">Tıkla</a>, 1.Pencere
+        </div>--%>
+        <div class="popup_login_body js__p_body js__fadeout"></div>
+        <div class="popup js__popup js__slide_top">
+            <a href="#" class="popup_login_close js__p_close" title="Kapat">
+            <span></span><span></span>
+            </a>
+        <div class="popup_login_content">
+            <h2>Üye Girişi</h2>
+            <div class="popup_login_cizgi_bir" ></div>
+            <div class="popup_login_cizgi_iki" ></div>
+            <h3>Kullanıcı Adı</h3><br />
+            <asp:TextBox CssClass="popup_login_textbox" ID="popup_login_TextBox1" runat="server"></asp:TextBox><br />
+            <h3>Şifre</h3><br />
+            <asp:TextBox CssClass="popup_login_textbox" ID="popup_login_TextBox2" runat="server"></asp:TextBox><br />
+            <asp:Button CssClass="popup_login_button" ID="popup_login_Button1" runat="server" Text="Giriş Yap" OnClick="popup_login_Button1_Click" />
+            <asp:CheckBox ID="CheckBox1" CssClass="popup_login_checkbox" runat="server" Text="Beni Hatırla" /><br />
+            <h4>Üye OL | Şifremi Unuttum?</h4>
+        </div>
+        </div>
+        <header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+            </asp:ContentPlaceHolder>
+            <div class="logoBolum">
+                <table>
+                    <tr>   <%-- alternatif kendi yaptığım basit logo src="images/denemeLogo.png--%>
+                        <td><div><img id="logo" src="images/logo.png" /></div></td>
+                        <td><div class="AramaBolum">
+                            <asp:TextBox ID="TextBox1" CssClass="arama_txt" runat="server" Width="240px" Height="20px" ForeColor="#242424" Text="Arama" onfocus="clearBox()" onblur="fillBox()" ></asp:TextBox>
+                            <a class="arama_btn" href="#"></a>
+                            </div>
+                        </td>
+                        <td><asp:Label ID="popup_login_Label1" CssClass="popup_login_label" runat="server"></asp:Label></td>
+                    </tr>
+                </table>
+            </div>
+        </header>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div class="float_temizleyici"></div>
+        <div class="footer_border"></div>
+        <footer>
+           <a href="#"/><p>Copyright 2015 &copy; Bu sayfa 5651 sayılı yasada tanımlanan yer sağlayıcı olarak hizmet vermektedir. 
+            İlgili yasaya göre, site yönetiminin hukuka aykırı içerikleri kontrol etme yükümlülüğü yoktur. 
+            Bu sebeple, sitemiz uyar ve kaldır prensibini benimsemiştir. Telif hakkına konu olan eserlerin
+            yasal olmayan bir biçimde paylaşıldığını ve yasal haklarının çiğnendiğini düşünen hak
+            sahipleri veya meslek birlikleri, hukuksal bölümünden bize ulaşabilirler. Buraya ulaşan talep
+            ve şikayetler hukuksal olarak değerlendirilecek, şikayet yerinde görüldüğü takdirde, ihlal
+            olduğu düşünülen içerikler sitemizden kaldırılacaktır. (If there's a content which disturbs
+            you and whose rights belong to you, please contact with us. We will remove it within 3 days.)
+           </p>
+        </footer>
+    </form>
+</body>
+</html>

@@ -1,0 +1,172 @@
+﻿.popup {
+  position:fixed; z-index:99; top:109px; left:50%;
+  width:718px;
+  background-color:#252525;
+    -moz-box-shadow:4px 4px 30px #130507;
+    -webkit-box-shadow:4px 4px 30px #130507;
+  box-shadow:4px 4px 30px #130507;
+    -moz-transition:top 800ms;
+    -o-transition:top 800ms;
+    -webkit-transition:top 800ms;
+  transition:top 800ms;
+}
+  .popup_login {
+    float:left; position:relative; z-index:1; /*width:100%;*/
+    /*margin:80px 0 0 0;*/ /*text-align:center; font-size:18px;*/
+  }
+  .popup_login a { color:#000; }
+  .popup_login a:hover { text-decoration:none; }
+  .popup_login_bottom { margin:1500px 0 0 0; padding:0 0 50px 0; }
+  .popup_login_close { position:absolute; top:0; right:0; width:16px; height:12px; padding:15px 11px 0 0; }
+  .popup_login_close span { display:block; width:18px; height:5px; background:orange; }
+  .popup_login_close span:first-child {
+      -ms-transform:rotate(45deg);
+      -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+  }
+  .popup_login_close span:last-child {
+    margin:-5px 0 0;
+      -ms-transform:rotate(135deg);
+      -webkit-transform:rotate(135deg);
+    transform:rotate(135deg);
+  }
+  .popup_login_body {
+    position:fixed; top:0; left:0; /*width:100%; height:100%;*/
+    background:#000; opacity:0.7;
+      -moz-transition:opacity 800ms;
+      -o-transition:opacity 800ms;
+      -webkit-transition:opacity 800ms;
+    transition:opacity 800ms;
+  }
+.popup_login_content { /*width:100%;*/ /*text-align:center; font-size:23px;*/ padding:0px; display:block;}
+
+/* JS-styles — declaratively */
+.js__popup {}
+  .js__p_start {}
+  .js__p_close {}
+  .js__p_body {}
+  .js__slide_top { height:0; overflow:hidden; top:0; }
+  .js__fadeout { height:0; overflow:hidden; opacity:0; }
+
+  .popup_login_content h2
+{
+    background-image:url("../images/siyah_bg.jpg");
+    background-repeat:repeat-y;
+    /*border-bottom:1px solid #131313;*/
+    background-size:100% 100%;
+    color:white; /*Ana Menüde default rengi nasıl yaptık şuan hatırlamıyoruz */
+    font-size:14px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family:oswald,arial,helvatica,sans-serif;
+}
+.popup_login_cizgi_bir
+{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+.popup_login_cizgi_iki
+{
+    height: 1px;
+    width: 100%;
+    background-color: #333;
+}
+/*.popup_login_content table
+{
+    border-collapse:collapse;
+    border-spacing:0px;
+    margin-left:5px;
+    margin-bottom:5px;
+}*/
+.popup_login_content h3
+{
+    display:inline-block;
+    border:1px solid #333;
+    background-color:#121212;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:3px;
+    color:#939393;
+    font-size:11px;
+    font-family:oswald,arial,helvatica,sans-serif;
+    margin-top:3px;
+    margin-left:5px;
+}
+.popup_login_textbox
+{
+    border: 1px solid #242424;
+    background-color:rgb(250,255,189);
+    color:black;
+    padding:3px;
+    font-size:11px;
+    width:200px;
+    font-family:oswald,arial,helvatica,sans-serif;
+    margin-left:5px;
+}
+.popup_login_button
+{
+    font-size:12px;
+    font-family:arial;
+    text-align:center;
+    background-color:#B7DF00;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+    border:1px solid #AEC640;
+    border-radius:4px;
+    border:none;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:5px;
+    margin-right:5px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.popup_login_button:hover
+{
+    cursor:pointer;
+    color:white;
+    background: linear-gradient(#ffd800,#ff6a00);
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.popup_login_checkbox
+{
+    font-family:Tahoma;
+    color:#939393;
+    font-size:12px;
+    padding-left:0px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+.popup_login_checkbox:hover
+{
+    color:#4cff00;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.popup_login_checkbox label
+{
+    margin-left:5px;
+}
+.popup_login_content h4
+{
+    line-height:18px;
+    padding:10px;
+    font-family:Tahoma;
+    font-size:12px;
+    color:#C6E633;
+}

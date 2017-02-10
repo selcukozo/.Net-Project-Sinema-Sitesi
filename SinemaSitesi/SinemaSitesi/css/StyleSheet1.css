@@ -1,0 +1,222 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+div nav footer header
+{
+    display:block;
+}
+body
+{
+    background-image:url("../images/arkaplan01.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    margin-top:5px;
+    margin-left:15%;
+    width:70%;
+}
+a{
+    text-decoration:none;
+    /*color:white;*/
+}
+a:visited
+{
+    text-decoration:none;
+    /*color:white;*/
+}
+header
+{
+    width:960px;
+}
+/*.uyeBolum
+{
+    font-size:11px;
+    margin-top:10px;
+    float:right;
+    font-weight:700;
+}
+.uyeBolum a
+{
+    color:white;
+}
+.uye_ol
+{
+    background-image:url("../images/UyeOl.png");
+    background-repeat:no-repeat;
+    background-position:left center;
+    padding-left:20px;
+    display:inline;
+}
+.uye_giris
+{
+    background-image:url("../images/uyeGiris.png");
+    background-repeat:no-repeat;
+    background-position:left center;
+    padding-left:20px;
+    margin-left:24px;
+    display:inline;
+}*/
+.logoBolum
+{
+    padding-top:40px;
+}
+.AramaBolum
+{
+    background-image:url("../images/arama_bg01.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    height:40px;
+    width:410px;  
+}
+.arama_txt
+{
+    margin-left:10px;
+    margin-top:10px;
+    border:none;
+}
+.arama_btn
+{
+    float:right;
+    margin-right:10px;
+    height:40px;
+    width:40px;
+}
+.popup_login_label
+{
+   margin-left:138px;
+}
+nav
+{
+    width:958px;
+    border:1px solid #333;
+    border-left:none;
+    background-image:url("../images/Menu_bg.png");
+    background-repeat:repeat-y;
+    background-size:100% 100%;
+}
+nav a
+{
+    color:#ccc;
+}
+nav li
+{
+    padding-left:5px;
+    padding-right:5px;
+    border-left:1px solid #333;
+    border-right:1px solid #181818;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+
+}
+nav li:hover
+{
+    background-color:#333;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+nav li li
+{
+    background-color:#333;
+    border-top:1px solid #414141;
+    border-left:1px solid #161616;
+    border-right:1px solid #242424;
+    border-bottom:1px solid #242424;
+    padding:3px 5px;
+    transition:opacity 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+}
+nav li li:hover
+{
+    border-right:1px solid #4cff00;
+    -webkit-transition:all ease 0.7s;
+    -moz-transition:all ease 0.7s;
+    -o-transition:all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition:all ease 0.7s;
+}
+.dinamik_menu_hover
+{
+
+}
+.dinamik_menu_item
+{
+
+}
+.dinamik_menu
+{
+
+}
+.dinamik_menu_secili
+{
+
+}
+.statik_menu_hover
+{
+
+}
+.statik_menu_item
+{
+    
+}
+.statik_menu
+{
+    font-size:11px;
+    font-weight:400;
+    line-height:24px;
+    font-family:oswald,arial,helvatica,sans-serif;
+    padding:4px 10px 2px 14px;
+}
+.statik_menu_secili
+{
+
+}
+
+.float_temizleyici
+{
+    clear:both;
+    display:block;
+}
+.footer_border
+{
+    margin-top:10px;
+    height:1px;
+    background-color:black;
+    left:0;
+    width:100%;
+    position:absolute;
+    display:block;
+}
+footer a
+{
+    color:white;
+}
+footer
+{
+    margin-top:11px;
+    margin-bottom:15px;/*Laptopda bu şekilde görünüyor. Masaüstünde burası yok*/
+    border-top:1px solid #292929;
+    float:left;
+    text-align:center;
+    font-size:14px;
+    background-color:#161616;
+    color:white;
+    padding-bottom:5px;
+    position:absolute;
+    left:0;
+    width:100%;
+}
+footer p
+{
+    padding-left:15%;
+    padding-top:15px;
+    width:750px;
+    padding-bottom:15px;
+}

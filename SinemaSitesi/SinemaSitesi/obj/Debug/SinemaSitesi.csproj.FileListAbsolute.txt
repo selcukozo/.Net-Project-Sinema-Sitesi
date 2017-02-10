@@ -1,0 +1,8 @@
+C:\Users\Selcuk\Documents\Visual Studio 2013\Projects\SinemaSitesi\SinemaSitesi\bin\SinemaSitesi.dll.config
+C:\Users\Selcuk\Documents\Visual Studio 2013\Projects\SinemaSitesi\SinemaSitesi\bin\SinemaSitesi.dll
+C:\Users\Selcuk\Documents\Visual Studio 2013\Projects\SinemaSitesi\SinemaSitesi\bin\SinemaSitesi.pdb
+C:\Users\Selcuk\Documents\Visual Studio 2013\Projects\SinemaSitesi\SinemaSitesi\bin\DatabaseBaglanti.dll
+C:\Users\Selcuk\Documents\Visual Studio 2013\Projects\SinemaSitesi\SinemaSitesi\bin\DatabaseBaglanti.pdb
+C:\Users\Selcuk\Documents\Visual Studio 2013\Projects\SinemaSitesi\SinemaSitesi\obj\Debug\SinemaSitesi.csprojResolveAssemblyReference.cache
+C:\Users\Selcuk\Documents\Visual Studio 2013\Projects\SinemaSitesi\SinemaSitesi\obj\Debug\SinemaSitesi.dll
+C:\Users\Selcuk\Documents\Visual Studio 2013\Projects\SinemaSitesi\SinemaSitesi\obj\Debug\SinemaSitesi.pdb

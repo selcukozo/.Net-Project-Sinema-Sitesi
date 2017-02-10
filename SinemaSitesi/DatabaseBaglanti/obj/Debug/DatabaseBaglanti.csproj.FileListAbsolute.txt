@@ -1,0 +1,5 @@
+C:\Users\Selcuk\Documents\Visual Studio 2013\Projects\SinemaSitesi\DatabaseBaglanti\bin\Debug\DatabaseBaglanti.dll
+C:\Users\Selcuk\Documents\Visual Studio 2013\Projects\SinemaSitesi\DatabaseBaglanti\bin\Debug\DatabaseBaglanti.pdb
+C:\Users\Selcuk\Documents\Visual Studio 2013\Projects\SinemaSitesi\DatabaseBaglanti\obj\Debug\DatabaseBaglanti.dll
+C:\Users\Selcuk\Documents\Visual Studio 2013\Projects\SinemaSitesi\DatabaseBaglanti\obj\Debug\DatabaseBaglanti.pdb
+C:\Users\Selcuk\Documents\Visual Studio 2013\Projects\SinemaSitesi\DatabaseBaglanti\obj\Debug\DatabaseBaglanti.csprojResolveAssemblyReference.cache
